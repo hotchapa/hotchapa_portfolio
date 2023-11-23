@@ -5,14 +5,15 @@ import './index.css'
 import "./assets/fonts/Font.css";
 import { RecoilRoot } from "recoil"
 import { BrowserRouter } from "react-router-dom";
+import { GlobalStyle } from "./style/SCommon.ts";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  
   <React.StrictMode>
     <RecoilRoot>
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>
+      <BrowserRouter>
+        <GlobalStyle />
+        <App />
+      </BrowserRouter>
     </RecoilRoot>
   </React.StrictMode>,
-)
+);

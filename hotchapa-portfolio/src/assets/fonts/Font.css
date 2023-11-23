@@ -1,33 +1,112 @@
 
 @font-face {
-  font-family: 'NanumSquareNeoLight';
-  src: local('NanumSquareNeoLight'), local('NanumSquareNeoLight');
+  font-family: 'SCDREAM1';
+  src: local('SCDREAM1'), local('SCDREAM1');
   font-style: normal;
-  src: url(NanumSquareNeo-aLt.ttf) format('truetype');
+  src: url(SCDREAM1.OTF) format('truetype');
 }
 @font-face {
-  font-family: 'NanumSquareNeoRegular';
-  src: local('NanumSquareNeoRegular'), local('NanumSquareNeoRegular');
+  font-family: 'SCDREAM2';
+  src: local('SCDREAM2'), local('SCDREAM2');
   font-style: normal;
-  src: url(NanumSquareNeo-bRg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'NanumSquareNeoBold';
-  src: local('NanumSquareNeoBold'), local('NanumSquareNeoBold');
-  font-style: normal;
-  src: url(NanumSquareNeo-cBd.ttf) format('truetype');
-}  
-
-@font-face {
-  font-family: 'NanumSquareNeoExtraBold';
-  src: local('NanumSquareNeoExtraBold'), local('NanumSquareNeoExtraBold');
-  font-style: normal;
-  src: url(NanumSquareNeo-dEb.ttf) format('truetype');
+  src: url(SCDREAM2.OTF) format('truetype');
 }
 
 @font-face {
-  font-family: 'NanumSquareNeoHeavy';
-  src: local('NanumSquareNeoHeavy'), local('NanumSquareNeoHeavy');
+  font-family: 'SCDREAM3';
+  src: local('SCDREAM3'), local('SCDREAM3');
   font-style: normal;
-  src: url(NanumSquareNeo-eHv.ttf) format('truetype');
+  src: url(SCDREAM3.OTF) format('truetype');
+}
+
+@font-face {
+  font-family: 'SCDREAM4';
+  src: local('SCDREAM4'), local('SCDREAM4');
+  font-style: normal;
+  src: url(SCDREAM4.OTF) format('truetype');
+}
+
+@font-face {
+  font-family: 'SCDREAM5';
+  src: local('SCDREAM5'), local('SCDREAM5');
+  font-style: normal;
+  src: url(SCDREAM5.OTF) format('truetype');
+}
+
+@font-face {
+  font-family: 'SCDREAM6';
+  src: local('SCDREAM6'), local('SCDREAM6');
+  font-style: normal;
+  src: url(SCDREAM6.OTF) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'SCDREAM7';
+  src: local('SCDREAM7'), local('SCDREAM7');
+  font-style: normal;
+  src: url(SCDREAM7.OTF) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'SCDREAM8';
+  src: local('SCDREAM8'), local('SCDREAM8');
+  font-style: normal;
+  src: url(SCDREAM8.OTF) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'SCDREAM9';
+  src: local('SCDREAM9'), local('SCDREAM9');
+  font-style: normal;
+  src: url(SCDREAM9.OTF) format('truetype');
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 100;
+  font-display: fallback;
+  src: url("./Pretendard-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PretendardLight";
+  font-style: normal;
+  font-weight: normal;
+  font-display: fallback; 
+  src: url("./Pretendard-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+  src: url("./Pretendard-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PretendardBold";
+  font-style: normal;
+  font-weight: bold;
+  font-display: fallback;
+  src: url("./Pretendard-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PretendardExtraBold";
+  font-style: normal;
+  font-weight: 1000;
+  font-display: fallback;
+  src: url("./Pretendard-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PretendardThin";
+  font-style: normal;
+  font-weight: lighter;
+  src: url("./Pretendard-Thin.woff2") format("woff2");
 }
