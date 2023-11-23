@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: 'NanumSquareNeoLight';
+  src: local('NanumSquareNeoLight'), local('NanumSquareNeoLight');
+  font-style: normal;
+  src: url(NanumSquareNeo-aLt.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'NanumSquareNeoRegular';
+  src: local('NanumSquareNeoRegular'), local('NanumSquareNeoRegular');
+  font-style: normal;
+  src: url(NanumSquareNeo-bRg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'NanumSquareNeoBold';
+  src: local('NanumSquareNeoBold'), local('NanumSquareNeoBold');
+  font-style: normal;
+  src: url(NanumSquareNeo-cBd.ttf) format('truetype');
+}  
+
+@font-face {
+  font-family: 'NanumSquareNeoExtraBold';
+  src: local('NanumSquareNeoExtraBold'), local('NanumSquareNeoExtraBold');
+  font-style: normal;
+  src: url(NanumSquareNeo-dEb.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareNeoHeavy';
+  src: local('NanumSquareNeoHeavy'), local('NanumSquareNeoHeavy');
+  font-style: normal;
+  src: url(NanumSquareNeo-eHv.ttf) format('truetype');
+}
