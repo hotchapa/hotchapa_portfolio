@@ -12,4 +12,5 @@ module.exports = {
   printWidth: 100,
   // 코드 한줄이 maximum 80칸
   arrowParens: "avoid",
+  "eslintIntegration": true,
 };

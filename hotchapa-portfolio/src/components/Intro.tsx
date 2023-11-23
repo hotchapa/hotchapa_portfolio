@@ -1,7 +1,17 @@
- import styled from "styled-components";
+ import styled, { keyframes } from "styled-components";
  import { SHeader1, SHeader2, SHeader3, STextColWrapper } from "../style/SCommon";
  import { useState, useEffect } from "react";
  import { useNavigate } from "react-router-dom";
+
+ const fill = keyframes`
+ from {
+   clip-path: polygon(0% 0%, 50% 100%, 100% 100%, 100% 0%);
+ }
+ to {
+   clip-path: polygon(0%  100%, 0% 0%, 0% 0%, 100% 50%);
+ }
+`;
+
 
  const IntroWrapper = styled.div`
   width: 100vw;
@@ -15,6 +25,16 @@
   user-select: none;
   background: radial-gradient(90.88% 90.88% at 50% 50%, #FFFFFF 66.44%, rgba(227, 227, 227, 0) 100%);
  `
+
+const BlackScreen = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  animation: ${fill} 1s linear forwards;
+`;
 
  const IntroYear = styled.div`
     font-family: "SCDREAM9";
@@ -62,6 +82,11 @@ const IntroName = styled.div`
   
 `
  function Intro() {
+  const [clicked, setClicked] = useState(false);
+  const handleClick = () => {
+    setClicked(true);
+  };
+
   const navigation = useNavigate();
   const [position, setPosition] = useState(0);
   const onScroll = () => {
@@ -79,9 +104,10 @@ const IntroName = styled.div`
   return (
     <IntroWrapper>
       <STextColWrapper>
+      {clicked && <BlackScreen />}
       <IntroYear>2023</IntroYear>
       <IntroBox>PORTFOLIO</IntroBox>
-      <IntroNameWrapper>
+      <IntroNameWrapper onClick={handleClick}>
         <IntroName>JIHUN KIM</IntroName>
         <IntroName>김지훈</IntroName>
       </IntroNameWrapper>

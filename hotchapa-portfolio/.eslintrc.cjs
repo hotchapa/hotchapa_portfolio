@@ -5,9 +5,13 @@ module.exports = {
     es2021: true,
     node: true,
   },
+  
   extends: [
     "plugin:@tanstack/eslint-plugin-query/recommended",
     "plugin:import/recommended",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint",
+    "prettier/react",
     "airbnb-typescript",
     "prettier",
   ],
